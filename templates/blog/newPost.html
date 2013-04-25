@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+    <div id="posts">
+        <div class="post">
+            <h2 class="title">Welcome!</h2>
+
+            <div class="story">
+            </div>
+            <div class="meta">
+                <p class="date">Posted on February 22, 2007 by Admin</p>
+
+                <p class="file">Filed under <a href="#">Uncategorized</a> | <a href="#">Edit</a> | <a href="#">28
+                    Comments</a></p>
+            </div>
+        </div>
+        <div class="post">
+            <h2 class="title">Eksempel Innlegg</h2>
+
+            <div class="story">
+                <p><strong></strong>blablablablabla</p>
+                <blockquote>
+                    <p>bllllaaaaaaaa</p>
+                </blockquote>
+
+            </div>
+            <div class="meta">
+                <p class="date">Posted on February 22, 2012 by Admin</p>
+
+                <p class="file">Filed under <a href="#">Uncategorized</a> | <a href="#">Edit</a> | <a href="#">28
+                    Comments</a></p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+<!-- end #posts -->
+{% block links %}
+    <ul>
+        <li>
+            <h2>Archives</h2>
+            <ul>
+                <li><a href="#">February 2012</a> <i>(22)</i></li>
+                <li><a href="#">January 2012</a> <i>(31)</i></li>
+                <li><a href="#">December 2012</a> <i>(31)</i></li>
+                <li><a href="#">November 2012</a> <i>(30)</i></li>
+                <li><a href="#">October 2012</a> <i>(31)</i></li>
+            </ul>
+        </li>
+    </ul>
+{% endblock %}
