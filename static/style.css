@@ -34,18 +34,20 @@ blockquote {
 a {
 	background: url(img03.gif) repeat-x left bottom;
 	text-decoration: none;
-	color: #555555;
+    color: #EEEEEE;
+    cursor: pointer;
 }
 
 a:hover {
-	background: none;
+    text-decoration-color: #555555;
+	background:none;
 	text-decoration: underline;
 }
 
 /* Wrapper */
 
 #wrapper {
-	background: #FFFFFF url(img04.gif) repeat-x left bottom;
+	background: url(img04.gif) repeat-x scroll left bottom #FFFFFF;
 }
 
 /* Menu */
@@ -89,7 +91,7 @@ a:hover {
 	font-size: 22px;
 	color: #FFFFFF;
 }
-/* Navigation */
+/* Navigation meny */
 ul#nav { display: inline; float:left;margin-bottom:0; margin-top: -10px; }
 ul#nav li {
 	list-style: none; float: left;
@@ -97,25 +99,39 @@ ul#nav li {
 ul#nav li a { /*<!--hvordan hver meny knapp skal se ut--->*/
 	display: block;
 	float: left;
-	padding: 10px 20px;
-	background: #c0c0c0;
-	color: black;
+	padding: 5px 20px;
+    background-color: #4BA976;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease-in 0s;
 	text-decoration: none;
 	font-size: 1.3em;
-	margin-right: 5px;
-	
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
 
-ul#nav li.news a:hover { background: #ed8e5e; }
-ul#nav li.about a:hover   { background: #bce27f; }
-ul#nav li.contact a:hover {background: #ed8e5e}
-
-body#blog #nav li.blog a,
-body#about #nav li.about a {
-	background: white;
+ul#nav li a:hover {
+    background-color: #AD3A2B;
+    color: #EEEEEE;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease-in 0s;
 }
+
+
+ #nav li a {
+
+    background-color: #4BA976;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease-in 0s;
+}
+ul#nav li a .top{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 1px 1px 0 0;
+    font-size: 11px;
+    padding: 4px 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
 /* Content */
 
 #content {
@@ -157,36 +173,31 @@ body#about #nav li.about a {
 #posts ul li {
 }
 
-/* Links */
-
-#links {
-	float: left;
-	width: 220px;
-}
-
-#links ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
+/*side menu*/
 #links li ul {
-	padding: 15px 20px 30px 20px;
-	background: url(img10.gif) repeat-x
+    background: url("img10.gif") repeat-x scroll 0 0 transparent;
+    padding: 15px 20px 30px;
+}
+#links ul {
+    list-style: none outside none;
+    margin: 0;
+}
+#links{
+    float: left;
+    width: 220px;
+}
+#links li a{
+    background: none repeat scroll 0 0 transparent;
+    color: #555555;
+    text-decoration: none;
 }
 
 #links li li {
-	padding: 3px 0;
-	background: url(img03.gif) repeat-x left bottom;
+    background: url("img03.gif") repeat-x scroll left bottom transparent;
+    padding: 3px 0;
 }
 
-#links li a {
-	background: none;
-}
 
-#links li i {
-	font-size: smaller;
-}
 
 /* Footer */
 
