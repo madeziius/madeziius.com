@@ -1,21 +1,105 @@
 {% extends "base.html" %}
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
 
 {% block title %}
-    Om Jenta
+    Curriculum Vitae
 {% endblock %}
 
 {% block content %}
+    <body>
+    <div id="cv">
 
-    <h1>Littergran om meg og mine interesser</h1>
+        <img src="/static/made.jpg" alt="Photo of me" id="pic" />
 
-    <img src="{{ STATIC_URL }}made1.jpg" alt="made" class="floatright">
+        <div id="contact-info" class="vcard">
 
-    <p>Hit kommer info om meg </p>
+            <h1 class="fn">Curriculum Vitae</h1>
 
-    <p>kanskje cv osv.. </p>
+            <p>
+               <br> Navn:<br/>
+                <br> Adresse:<br/>
+                <br> Fødselsdag:<br/>
+                <br>Telef: <span class="tel">94244573</span><br />
+                Email: <a class="email" href="mailto:ziius@stud.ntnu.no">ziius@stud.ntnu.no</a>
+            </p>
+        </div>
 
+        <div id="objective">
+            <p>
+             Jeg er ei hyggelig og blid jente som faktisk liker data.
+             Jeg er flink til å jobbe i team og omgås lett med nye mennesker.
+             Det jeg ikke kan, lærer jeg fort. Jeg er effektiv, målrettet og liker utfordringer.
+            </p>
+        </div>
+
+        <div class="clear"></div>
+
+        <dl>
+            <dd class="clear"></dd>
+
+            <dt>Utdanning</dt>
+            <dd>
+                <ul>
+                <li>University of Murcia. Erasmus utveksling til Murcia, Spania.</li>
+                <li>Bachelor informatikk, NTNU, Norges Naturvitenskaplige Universitet. </li>
+                <li>Levanger Videregående skole , Realfag med matematikk, fysikk og kjemi. </li>
+                <li>Ungdomskole, Frol oppvekstsenter .</li>
+                    </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Arbeidserfaring</dt>
+            <dd>
+                <ul>
+                <li>Medarbeider, Orakeltjenesten, NTNU-IT</li>
+                <li>Konsulent, Direktoratet for forvaltning og IKT (Difi)</li>
+                <li>NKUL 2013</li>
+                <li>Butikkmedarbeider, Coop Prix Levanger</li>
+                    </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Verv o.l.</dt>
+            <dd>
+                <ul>
+                <li>Funksjonær, ITK- Studentersamfundet Trondheim</li>
+                <li>Leder for Levanger Natur og Ungdom </li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Språkkunnskaper</dt>
+            <dd>
+               Jeg behersker Norsk, Estisk og Engelsk både skriftlig og muntlig. I tillegg snakker og forstår jeg Spansk på et B2 nivå.
+            </dd>
+            <dd class="clear"></dd>
+            <dt>Skills</dt>
+            <dd>
+                Java, Python, Git, Html , CSS, Android Development
+            </dd>
+            <dd class="clear"></dd>
+            <dt>Hobbier</dt>
+            <dd>
+                I tillegd til data interesserer jeg meg for blant annet Slalom, trening generelt,
+                friluftsliv og fjellturer og musikk.Seg er også over midles interessert i språk.
+            </dd>
+            <dd class="clear"></dd>
+
+            <dt>References</dt>
+            <dd>Ved forespørsel</dd>
+            <dd class="clear"></dd>
+        </dl>
+    </div>
+    </body>
+    </html>
 {% endblock %}
 
 {% block postfooter %}
-    <p class="post footer">Lita og søt, men skummel når det trengs.</p>
+    <p class="post footer"></p>
 {% endblock %}
