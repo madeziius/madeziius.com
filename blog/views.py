@@ -17,6 +17,8 @@ def contact(request):
 
 def about(request):
     return render (request, 'blog/about.html', locals())
+def start(request):
+    return render (request, 'blog/start.html', locals())
 
 def newPost(request):
     form = NewBlogPostForm(request.POST or None)
