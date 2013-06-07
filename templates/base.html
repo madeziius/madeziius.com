@@ -1,65 +1,54 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title> {% block title %} Min reise i Spania {% endblock %}</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <script type="text/javascript" src="{{ STATIC_URL }}jquery-1.7.2.min.js"></script>
+    <title>Made Ziius</title>
+    <meta charset="iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}style.css">
-    <script type="text/javascript" src="{{ STATIC_URL }}disqus.js"></script>
+    <link rel="stylesheet" href="{{ STATIC_URL }}styles/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ STATIC_URL }}styles/mediaqueries.css" type="text/css" media="all">
+    <script src="{{ STATIC_URL }}scripts/jquery-1.7.2.min.js"></script>
+    <script src="{{ STATIC_URL }}scripts/jquery-mobilemenu.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.topnav').mobileMenu({
+                combine: false,
+                switchWidth: 520,
+                indentString: '&nbsp;&nbsp;&nbsp;',
+                prependTo: 'nav#topnav'
+            });
+        });
+    </script>
+    <!--[if lt IE 9]>
+<link rel="stylesheet" href="styles/ie.css" type="text/css" media="all">
+<script src="scripts/css3-mediaqueries.min.js"></script>
+<script src="scripts/html5shiv.min.js"></script>
+<![endif]-->
 </head>
 <body>
-<div id="header">
-    <h1 class="header"></h1>
-    <h2 class="header"></h2>
-
-    <!-- dette er menyet -->
-    <ul id="nav">
-        <li class="news"><a href="/">Nytt</a></li>
-        <li class="about"><a href="{% url blog_about %}">Om jenta</a></li>
-        <li class="contact"><a href="{% url blog_contact %}">Kontakt</a></li>
-    </ul>
-<!--end menu-->
-    <div class="clear"></div>
+<div class="wrapper row1">
+    <header id="header">
+        <hgroup>
+            <h1><a href="/">Made Ziius</a></h1>
+            <h2>If you want something bad enough you will make it happen!</h2>
+        </hgroup>
+        <!-- ################################################################################################ -->
+        <nav id="topnav">
+            <ul class="topnav clear">
+                <li class="active"><a href="\">Home</a></li>
+                <li><a href="{% url blog_about %}">About Me</a></li>
+                <li><a href="{% url blog_contact %}">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="{% url blog_about %}">Portfolio</a></li>
+                <li class="last"><a href="#">Useful Links</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ################################################################################################ -->
+    <!-- content -->
+    {% block content %}
+    {% endblock %}
 </div>
-    <div id="wrapper">
-        <div id="content">
-            {% block content %}
 
-
-            {% endblock %}
-            <div id="links">
-                {% block links %}
-                {% endblock %}
-            </div>
-        </div>
-    </div>
-
-
-        <!-- end #links -->
-
-<div style="clear: both;">&nbsp;</div>
-
-<p class="post footer"> {% block postfooter %}{% endblock %}</p>
-
-<div id="footer">
-    <p id="legal">Copyright &copy; 2012 Made Ziius.</p>
-
-</div>
-<!-- end #footer -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'madeziius'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
 </body>
 </html>
