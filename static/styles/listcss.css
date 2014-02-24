@@ -1,0 +1,38 @@
+
+  h1{font-family: Raleway; font-weight: normal; color: #0a83ca;}
+  body { background: #fff; font-family: Raleway, sans-serif; font-size: 12px; }
+  header, section, footer { display: block; }
+  #container { background-color: #f7f7f7; margin: 50px auto; width: 300px; border: 4px solid #a8a8a8; 
+  -moz-box-shadow: 3px 3px 12px #d3d3d3;
+-webkit-box-shadow: 3px 3px 12px #d3d3d3;
+box-shadow: 3px 3px 12px #d3d3d3;
+  }
+  header h1 { text-align: center; margin: 0; padding: 15px 0;}
+  label { padding-bottom: 5px; text-align: center; }
+  #task { border: 1px solid #888; margin-left: 50px; width: 200px; }
+  #tasks { margin: 20px; padding: 0; }
+  #tasks li { list-style-type: none; padding: 5px; font-size: 1.3em; }
+  #tasks li:nth-child(2n) { background-color: #e8e8e8; }
+  #tasks li:nth-child(2n+1) { background-color: #ddd; }
+  #tasks li:hover { background-color: #ccc; }
+  #tasks li a { color: red; display: block; float: right; text-decoration: none; }
+  input{font-family: Raleway; padding-left: 7px; color: #464646; margin-left: 12px; margin-right: 12px; margin-top: 10px; margin-bottom: 10px;}
+  footer { background-color: #000; color: #aaa; padding: 20px; }
+  footer a { color: #aaa; }
+  footer a:hover { color: #eee; }
+      #clear{cursor:pointer; color: red; font-weight:bold; text-align: right; display: none; padding-right: 10px;}
+      
+p{
+margin-left: 30px;
+}
+
+li.task1{
+color:rgb(128,128,128);
+}  
+li.task2{
+color:rgb(0,0,0);
+}
+.kjopt{
+background-color: #bdbdbd;
+text-decoration:line-through;
+}

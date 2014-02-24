@@ -19,3 +19,16 @@ class Comments(models.Model):
     text = models.CharField(max_length=500)
     postId = models.ForeignKey(BlogPosts)
 
+class Gave(models.Model):
+    beskrivelse = models.CharField(max_length=100)
+    link = models.CharField(max_length=100, blank=True)
+    kjopt = models.BooleanField(default=False)
+
+    def __unicode__(self):
+     	return self.beskrivelse
+
+    class Meta:
+	ordering = ['id']
+
+    class Admin:
+    	pass

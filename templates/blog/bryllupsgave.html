@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ønskeliste </title>
+    <link rel="script" type="script/javascript" href="/static/styles/listjs.js">
+    <link rel="stylesheet" type="text/css" href="/static/styles/listcss.css">
+
+
+<link rel="stylesheet" href="/static/styles/jquery.countdown.css">
+<style type="text/css">
+#defaultCountdown { width: 240px; height: 45px; }
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="/static/scripts/jquery.countdown.js"></script>
+<script type="text/javascript">
+$(function () {
+	var austDay = new Date(2014,7-1,5,13,30,0);
+	$('#defaultCountdown').countdown({until: austDay});
+	$('#year').text(austDay.getFullYear());
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $("#tasks").on("click",".task",function() {
+	$(this).toggleClass("kjopt");
+	  	
+  });
+});
+</script>
+
+</head>
+<body>
+<div id=container>
+<header>
+<h1> Ønskeliste vil bli tilgjengelig når vi finner ut hva vi ønsker oss :) </h1>
+</header>
+
+<p> Vi gleder oss! </p>
+<div id="defaultCountdown"></div>
+
+<!--
+    <header>
+        <h1>Ønskeliste</h1>
+    </header>
+    <ul id="tasks">
+	{% for g in Gave %}
+	{% if g.kjopt == True %}
+
+        <li class="task"><input type="checkbox" checked/><label>{{g.beskrivelse}}</label></li>
+	{% else %}
+	<li class="task"><input type="checkbox"/><label>{{g.beskrivelse}}</label></li>
+	{% endif %}
+        {% endfor %}
+
+-->
+</div>
+</ul>
+</body>
+</html>

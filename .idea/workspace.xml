@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a595a5c2-5c34-45a1-9812-83303cc4abb3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/410x440.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/facebook_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/facebook_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/in_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/in_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lastfm_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lastfm_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/skype_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/skype_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/cv.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/homepage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/mediaqueries.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/navi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
     </list>
     <ignored path="madeblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,82 +31,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/contact.html">
+      <file leaf-file-name="wsgi_eris.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/madeblog/wsgi_eris.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+            <state line="8" column="34" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <file leaf-file-name="settings_eris.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/madeblog/settings_eris.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="-4.7916665">
+            <state line="140" column="6" selection-start="5192" selection-end="5192" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <file leaf-file-name="wsgi_lisbeth.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/madeblog/wsgi_lisbeth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="12" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="394" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/style.css">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/madeblog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.0">
+            <state line="111" column="26" selection-start="4203" selection-end="4203" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/home.html">
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/madeblog/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="83" selection-start="392" selection-end="392" vertical-scroll-proportion="-4.375">
+            <state line="23" column="36" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/styles/layout.css">
+      <file leaf-file-name="settings_lisbeth.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/madeblog/settings_lisbeth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cv.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/cv.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/styles/homepage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="81" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navi.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/styles/navi.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="1" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.5552239">
+            <state line="61" column="44" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.44134077">
               <folding />
             </state>
           </provider>
@@ -149,9 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/madeblog/settings_eris.py" />
-        <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/templates/blog/cv.css" />
         <option value="$PROJECT_DIR$/templates/blog/base_about.html" />
         <option value="$PROJECT_DIR$/templates/blog/about.html" />
         <option value="$PROJECT_DIR$/templates/blog/start.html" />
@@ -165,6 +118,9 @@
         <option value="$PROJECT_DIR$/static/cv.css" />
         <option value="$PROJECT_DIR$/static/styles/homepage.css" />
         <option value="$PROJECT_DIR$/static/styles/navi.css" />
+        <option value="$PROJECT_DIR$/madeblog/settings.py" />
+        <option value="$PROJECT_DIR$/madeblog/wsgi_lisbeth.py" />
+        <option value="$PROJECT_DIR$/madeblog/settings_lisbeth.py" />
       </list>
     </option>
   </component>
@@ -248,38 +204,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madeblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madeblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madeblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madeblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,20 +478,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="47" width="1354" height="691" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2938053" sideWeight="0.49014777" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2938053" sideWeight="0.49014777" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.7553957" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32733813" sideWeight="0.4938838" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19722651" sideWeight="0.30265486" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21855828" sideWeight="0.7061947" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21855828" sideWeight="0.7061947" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.4969325" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32035398" sideWeight="0.52619416" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32035398" sideWeight="0.52619416" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31681415" sideWeight="0.46841294" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -633,53 +557,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/blog/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scripts/jquery-1.7.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/madeblog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="227" selection-end="234" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/madeblog/settings_eris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/madeblog/wsgi_eris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="404" selection-end="404" vertical-scroll-proportion="0.2793296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="-8.125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="-4.7916665">
@@ -724,7 +601,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/navi.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="1" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.5552239">
+        <state line="168" column="1" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madeblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madeblog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madeblog/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="36" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madeblog/wsgi_lisbeth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="394" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madeblog/settings_eris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="6" selection-start="5192" selection-end="5192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madeblog/wsgi_eris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madeblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="26" selection-start="4203" selection-end="4203" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madeblog/settings_lisbeth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="44" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.44134077">
           <folding />
         </state>
       </provider>

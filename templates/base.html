@@ -4,11 +4,12 @@
     <title>Made Ziius</title>
     <meta charset="iso-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}style.css">
-    <link rel="stylesheet" href="{{ STATIC_URL }}styles/layout.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ STATIC_URL }}styles/mediaqueries.css" type="text/css" media="all">
-    <script src="{{ STATIC_URL }}scripts/jquery-1.7.2.min.js"></script>
-    <script src="{{ STATIC_URL }}scripts/jquery-mobilemenu.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/out.css">
+<link rel="stylesheet" type="text/css" href="/static/navi.css">
+    <link rel="stylesheet" href="/static/styles/mediaqueries.css" type="text/css" media="all">
+    <script src="/static/scripts/jquery-1.7.2.min.js"></script>
+    <script src="/static/scripts/jquery-mobilemenu.min.js"></script>
     <script>
         $(document).ready(function () {
             $('.topnav').mobileMenu({
@@ -35,11 +36,11 @@
         <!-- ################################################################################################ -->
         <nav id="topnav">
             <ul class="topnav clear">
-                <li class="active"><a href="\">Home</a></li>
-                <li><a href="{% url blog_about %}">About Me</a></li>
-                <li><a href="{% url blog_contact %}">Contact</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="{% url blog_about %}">Portfolio</a></li>
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="{% url "blog_about" %}">About Me</a></li>
+                <li><a href="{% url "blog_contact" %}">Contact</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="{% url "blog_about" %}">Portfolio</a></li>
                 <li class="last"><a href="#">Useful Links</a></li>
             </ul>
         </nav>
