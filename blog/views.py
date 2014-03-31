@@ -3,6 +3,8 @@ from django.shortcuts import render, render_to_response, get_object_or_404
 from django.template.context import RequestContext
 from blog.forms import NewBlogPostForm
 from blog.models import BlogPosts, Gave
+from django.http import Http404, HttpResponse
+from django.utils import simplejson
 
 def home(request):
     blogs = BlogPosts.objects.order_by("date")[:5]
@@ -17,6 +19,13 @@ def contact(request):
 def bryllupsgave(request):
     gave = Gave.objects.all()
     return render(request, 'blog/bryllupsgave.html', {'Gave':gave})
+def bryllupsgavepost(request, gave_id):
+    gave = get_object_or_404(Gave, pk=int(gave_id))
+    gave.kjopt = not gave.kjopt
+    gave.save()
+    message = {}
+    json = simplejson.dumps(message)
+    return HttpResponse(json, mimetype="application/json")	
 def about(request):
     return render (request, 'blog/about.html', locals())
 def start(request):

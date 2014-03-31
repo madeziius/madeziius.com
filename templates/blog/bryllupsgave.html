@@ -26,8 +26,10 @@ $(function () {
 $(document).ready(function() {
   $("#tasks").on("click",".task",function() {
 	$(this).toggleClass("kjopt");
-	  	
-  });
+	$.get("bryllupsgavepost"+this.id, function(data) {
+
+	});
+    });
 });
 </script>
 
@@ -41,7 +43,7 @@ $(document).ready(function() {
 <p> Vi gleder oss! </p>
 <div id="defaultCountdown"></div>
 
-<!--
+
     <header>
         <h1>Ønskeliste</h1>
     </header>
@@ -49,13 +51,13 @@ $(document).ready(function() {
 	{% for g in Gave %}
 	{% if g.kjopt == True %}
 
-        <li class="task"><input type="checkbox" checked/><label>{{g.beskrivelse}}</label></li>
+        <li class="kjopt task" id={{g.id}}><label>{{g.beskrivelse}}</label></li>
 	{% else %}
-	<li class="task"><input type="checkbox"/><label>{{g.beskrivelse}}</label></li>
+	<li class="task" id={{g.id}}><label>{{g.beskrivelse}}</label></li>
 	{% endif %}
         {% endfor %}
 
--->
+
 </div>
 </ul>
 </body>
